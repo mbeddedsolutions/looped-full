@@ -100,21 +100,7 @@ export default function Layout({ children, currentPageName }) {
               </SidebarGroupContent>
             </SidebarGroup>
 
-            <SidebarGroup>
-              <SidebarGroupLabel className="text-xs font-semibold text-slate-500 uppercase tracking-wider px-2 py-2">
-                Safety
-              </SidebarGroupLabel>
-              <SidebarGroupContent>
-                <div className="px-4 py-3 bg-green-50 rounded-lg border border-green-200">
-                  <div className="flex items-center gap-2 text-sm text-green-700">
-                    <Shield className="w-4 h-4" />
-                    <span className="font-medium">Emergency: 999</span>
-                  </div>
-                  <p className="text-xs text-green-600 mt-1">Always available, even during quiet hours</p>
-                </div>
-              </SidebarGroupContent>
-            </SidebarGroup>
-
+           
             <SidebarGroup>
               <SidebarGroupLabel className="text-xs font-semibold text-slate-500 uppercase tracking-wider px-2 py-2">
                 Account
