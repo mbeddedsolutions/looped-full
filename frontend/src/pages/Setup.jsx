@@ -87,7 +87,7 @@ export default function Setup() {
                   </div>
                   <Alert>
                     <AlertDescription>
-                      The phone should show a blinking blue light when ready for pairing.
+                      The phone should beep every 3 seconds when ready for pairing.
                     </AlertDescription>
                   </Alert>
                 </div>
