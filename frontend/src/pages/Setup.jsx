@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+inimport React, { useState } from "react";
 import { Phone } from "@/api/entities";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -82,7 +82,7 @@ export default function Setup() {
                   <h3 className="text-lg font-semibold">Get the phone ready</h3>
                   <div className="text-left space-y-2 max-w-md mx-auto">
                     <p className="text-slate-600">1. Plug the child's phone into power</p>
-                    <p className="text-slate-600">2. Wait for the blinking light indicator</p>
+                    <p className="text-slate-600">2. Wait for the beeping sound</p>
                     <p className="text-slate-600">3. Make sure both devices are on the same Wi-Fi</p>
                   </div>
                   <Alert>
